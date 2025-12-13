@@ -2,8 +2,6 @@
 
 This repository presents **BiForget**, a **target-model-guided data synthesis framework** for constructing *high-quality forget sets* in **large language model (LLM) unlearning**.
 
-Unlike prior approaches that rely on external generators or fixed benchmarks, BiForget synthesizes forget data **directly guided by the target model itself**, enabling more *effective* unlearning.
-
 ---
 
 ## ✨ Key Contributions
@@ -172,5 +170,6 @@ Unlearning experiments are conducted using the following repositories:
 ## 📌 Citation
 
 If you find this repository useful, please cite our paper (to be added).
+
 
 
