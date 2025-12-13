@@ -42,8 +42,8 @@ The overall pipeline is illustrated below:
 <p align="center">
   <img src="Overview/overview.png" alt="BiForget overview" width="850">
 </p>
-
 Overview of BiForget, a synthesis framework that constructs high-quality datasets for both domain-level and instance-level unlearning. It adopts two kinds of prompt design (seed-guided and adversarial).
+
 ---
 
 ## 🔁 Reproducing Results
@@ -169,6 +169,7 @@ Unlearning experiments are conducted using the following repositories:
 ## 📌 Citation
 
 If you find this repository useful, please cite our paper (to be added).
+
 
 
 
