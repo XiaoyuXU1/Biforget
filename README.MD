@@ -155,7 +155,7 @@ Unlearning experiments are conducted using the following repositories:
 - **Harry Potter (Domain-Level Unlearning)**  
   🔗 MUSE-Bench: https://github.com/swj0419/muse_bench
 
-- **WMDP (Safety-Oriented Domain Unlearning)**  
+- **WMDP (Domain-level Unlearning)**  
   🔗 WMDP: https://github.com/centerforaisafety/wmdp
 
 - **TOFU (Instance-Level Unlearning)**  
@@ -169,6 +169,7 @@ Unlearning experiments are conducted using the following repositories:
 ## 📌 Citation
 
 If you find this repository useful, please cite our paper (to be added).
+
 
 
 
