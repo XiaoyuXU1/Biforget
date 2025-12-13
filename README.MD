@@ -42,13 +42,10 @@ compared to official and textbook-style datasets, consistently yielding **strong
 
 ## 🧩 Framework Overview
 
-The overall pipeline is illustrated in:
-
-```
-Overview/overview.png
-```
-
-BiForget integrates seed extraction, target-model-guided expansion, adversarial probing, and quality evaluation into a unified synthesis loop.
+The overall pipeline is illustrated below:
+<p align="center">
+  <img src="Overview/overview.png" alt="BiForget overview" width="850">
+</p>
 
 ---
 
@@ -176,3 +173,4 @@ Unlearning experiments are conducted using the following repositories:
 ## 📌 Citation
 
 If you find this repository useful, please cite our paper (to be added).
+
