@@ -125,7 +125,7 @@ relevance.ipynb
 It evaluates:
 
 * Target relevance,
-* Data efficiency across different unlearning algorithms.
+* Data efficiency.
 
 ---
 
@@ -170,6 +170,7 @@ Unlearning experiments are conducted using the following repositories:
 ## 📌 Citation
 
 If you find this repository useful, please cite our paper (to be added).
+
 
 
 
