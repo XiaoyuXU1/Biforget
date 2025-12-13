@@ -149,7 +149,6 @@ This script reports:
 ### 4️⃣ Unlearning Performance Evaluation
 
 To evaluate the **unlearning effectiveness** of BiForget-generated forget sets, we rely on **existing official unlearning frameworks**.  
-In all experiments, BiForget **only replaces the forget dataset**, while keeping the original training, optimization, and evaluation protocols unchanged.
 
 Unlearning experiments are conducted using the following repositories:
 
@@ -170,6 +169,7 @@ Unlearning experiments are conducted using the following repositories:
 ## 📌 Citation
 
 If you find this repository useful, please cite our paper (to be added).
+
 
 
 
