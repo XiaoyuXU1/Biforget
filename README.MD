@@ -76,7 +76,6 @@ python Synthetic_dataset_domain.py \
   --items_per_round 6 \
   --max_rounds 4 \
   --temperature_list 0.6 0.8 1.0 1.2 \
-  --samples_per_point 4 \
   --max_new_tokens 300 \
   --verbose \
   --synthetic_model muse-bench/MUSE-books_target \
@@ -169,6 +168,7 @@ Unlearning experiments are conducted using the following repositories:
 ## 📌 Citation
 
 If you find this repository useful, please cite our paper (to be added).
+
 
 
 
