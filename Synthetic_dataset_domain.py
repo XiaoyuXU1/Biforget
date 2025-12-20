@@ -86,7 +86,7 @@ def recursive_prompt_expansion(
     max_rounds=2,
     items_per_round=10,
     temperature_list=[0.3, 0.7, 1.0],
-    samples_per_point=2,
+    samples_per_point=4,
     max_new_tokens=80,
     prompt_templates=None,
     verbose=True,
