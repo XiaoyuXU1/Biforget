@@ -79,44 +79,6 @@ def get_embedding(text, pool="mean"):
 
 embeddings = np.array([get_embedding(t) for t in tqdm(texts, desc="Extracting embeddings")])
 
-# ===================== Visualize embeddings (PCA) =====================
-# Research-style configuration
-mpl.rcParams.update({
-    "font.family": "serif",
-    "font.serif": ["DejaVu Serif"],
-    "axes.titlesize": 40,
-    "axes.labelsize": 35,
-    "xtick.labelsize": 34,
-    "ytick.labelsize": 34,
-    "legend.fontsize": 34,
-    "figure.dpi": 150,
-    "axes.linewidth": 1.2,
-})
-
-# PCA dimensionality reduction
-pca = PCA(n_components=2)
-embeddings_2d = pca.fit_transform(embeddings)
-
-# Plot
-plt.figure(figsize=(7, 6))
-plt.scatter(
-    embeddings_2d[:, 0],
-    embeddings_2d[:, 1],
-    alpha=0.5,
-    s=40,                   # Marker size
-    c="#2570b4",            # Blue tone commonly used in research figures
-    edgecolor="none"
-)
-plt.title("PCA Visualization")
-plt.xlabel("PC1")
-plt.ylabel("PC2")
-# Use the dataset filename without extension
-dataset_name = os.path.splitext(os.path.basename(args.dataset))[0]
-# Save high-resolution figure
-plt.tight_layout()
-plt.savefig(f"Syn_quality/Figures/Diversity/{dataset_name}.pdf", dpi=300)   # PDF format
-plt.show()
-
 # ===================== Remote-Clique =====================
 def remote_clique_score(embeddings):
     distances = pdist(embeddings, metric="cosine")
