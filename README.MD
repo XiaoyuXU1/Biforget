@@ -96,9 +96,9 @@ This script performs recursive seed-guided expansion and adversarial probing to 
 ```bash
 python Synthetic_dataset_fact.py \
   --Fact_dataset "forget01" \
-  --max_rounds 3 \
+  --max_rounds 1 \
   --temperature_list 0.6, 0.8 1.0 1.2 \
-  --max_new_tokens 100 \
+  --max_new_tokens 100 \    %can change according to instance length
   --verbose \
   --synthetic_model open-unlearning/tofu_Llama-3.1-8B-Instruct_full \
   --synthetic_tokenizer open-unlearning/tofu_Llama-3.1-8B-Instruct_full \
@@ -168,6 +168,7 @@ Unlearning experiments are conducted using the following repositories:
 ## 📌 Citation
 
 If you find this repository useful, please cite our paper (to be added).
+
 
 
 
