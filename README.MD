@@ -1,4 +1,4 @@
-# 🧠 BiForget: Target-Model-Guided Synthesis for LLM Unlearning
+# 🧠 From Domains to Instances: Dual-Granularity Data Synthesis for LLM Unlearning
 
 This repository presents **BiForget**, a **target-model-guided data synthesis framework** for constructing *high-quality forget sets* in **large language model (LLM) unlearning**.
 
@@ -168,6 +168,7 @@ Unlearning experiments are conducted using the following repositories:
 ## 📌 Citation
 
 If you find this repository useful, please cite our paper (to be added).
+
 
 
 
