@@ -169,12 +169,14 @@ Unlearning experiments are conducted using the following repositories:
 
 If you find this repository useful, please cite our paper.
 
+```bibtex
 @misc{synthesisxu26,
   author       = {Xiaoyu Xu and Minxin Du and Zitong Li and Zi Liang and Zhibiao Guo and Shiyu Zhang and Peizhao Hu and Qingqing Ye and Haibo Hu},
   title        = {From Domains to Instances: Dual-Granularity Data Synthesis for LLM Unlearning},
   howpublished   = {arXiv:2601.04278},
   year         = {2026}
 }
+
 
 
 
